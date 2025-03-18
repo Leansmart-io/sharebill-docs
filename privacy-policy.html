@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<title>
+		</title>
+		<style>
+			body { text-indent:28.35pt; line-height:150%; font-family:'Times New Roman'; font-size:14pt }
+			h1, h2, h3, h4, h5, h6, p { margin:0pt 0pt 8pt }
+			li { margin-top:0pt; margin-bottom:8pt }
+			h1 { margin-top:18pt; margin-bottom:4pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:'Times New Roman'; font-size:20pt; font-weight:normal; color:#0f4761 }
+			h2 { margin-top:8pt; margin-bottom:4pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:'Times New Roman'; font-size:16pt; font-weight:normal; color:#0f4761 }
+			h3 { margin-top:8pt; margin-bottom:4pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#0f4761 }
+			h4 { margin-top:4pt; margin-bottom:2pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; font-style:italic; color:#0f4761 }
+			h5 { margin-top:4pt; margin-bottom:2pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#0f4761 }
+			h6 { margin-top:2pt; margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; font-style:italic; color:#595959 }
+			.Heading7 { margin-top:2pt; margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#595959 }
+			.Heading8 { margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; font-style:italic; color:#272727 }
+			.Heading9 { margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#272727 }
+			.IntenseQuote { margin:18pt 43.2pt; text-indent:28.35pt; text-align:center; line-height:150%; border-top:0.75pt solid #0f4761; border-bottom:0.75pt solid #0f4761; padding-top:10pt; padding-bottom:10pt; font-size:14pt; font-style:italic; color:#0f4761 }
+			.ListParagraph { margin-left:36pt; margin-bottom:8pt; text-indent:28.35pt; line-height:150%; font-size:14pt }
+			.Quote { margin-top:8pt; margin-bottom:8pt; text-indent:28.35pt; text-align:center; line-height:150%; font-size:14pt; font-style:italic; color:#404040 }
+			.Subtitle { margin-bottom:8pt; text-indent:28.35pt; line-height:150%; font-family:Arial; font-size:14pt; letter-spacing:0.75pt; color:#595959 }
+			.Title { margin-bottom:4pt; text-indent:28.35pt; line-height:normal; font-family:'Times New Roman'; font-size:28pt; letter-spacing:-0.5pt }
+			span.Heading1Char { font-family:'Times New Roman'; font-size:20pt; color:#0f4761 }
+			span.Heading2Char { font-family:'Times New Roman'; font-size:16pt; color:#0f4761 }
+			span.Heading3Char { font-family:Arial; color:#0f4761 }
+			span.Heading4Char { font-family:Arial; font-style:italic; color:#0f4761 }
+			span.Heading5Char { font-family:Arial; color:#0f4761 }
+			span.Heading6Char { font-family:Arial; font-style:italic; color:#595959 }
+			span.Heading7Char { font-family:Arial; color:#595959 }
+			span.Heading8Char { font-family:Arial; font-style:italic; color:#272727 }
+			span.Heading9Char { font-family:Arial; color:#272727 }
+			span.IntenseEmphasis { font-style:italic; color:#0f4761 }
+			span.IntenseQuoteChar { font-style:italic; color:#0f4761 }
+			span.IntenseReference { font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#0f4761 }
+			span.QuoteChar { font-style:italic; color:#404040 }
+			span.SubtitleChar { font-family:Arial; letter-spacing:0.75pt; color:#595959 }
+			span.TitleChar { font-family:'Times New Roman'; font-size:28pt; letter-spacing:-0.5pt }
+			.awlist1 { list-style:none; counter-reset:awlistcounter3_0 }
+			.awlist1 > li:before { content:counter(awlistcounter3_0) '.'; counter-increment:awlistcounter3_0 }
+			.awlist2 { list-style:none; counter-reset:awlistcounter3_0 1 }
+			.awlist2 > li:before { content:counter(awlistcounter3_0) '.'; counter-increment:awlistcounter3_0 }
+			.awlist3 { list-style:none; counter-reset:awlistcounter3_1 }
+			.awlist3 > li:before { content:'2.' counter(awlistcounter3_1) '.'; counter-increment:awlistcounter3_1 }
+			.awlist4 { list-style:none; counter-reset:awlistcounter3_1 1 }
+			.awlist4 > li:before { content:'2.' counter(awlistcounter3_1) '.'; counter-increment:awlistcounter3_1 }
+			.awlist5 { list-style:none; counter-reset:awlistcounter3_1 2 }
+			.awlist5 > li:before { content:'2.' counter(awlistcounter3_1) '.'; counter-increment:awlistcounter3_1 }
+@media (max-width: 900px) { 
+img { 
+   max-width: 100%;
+   height: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+}	
+
+
+		</style>
+	</head>
+	<body>
+			<ol class="awlist1" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:46.35pt; text-indent:-18pt; line-height:150%; font-size:12pt; font-weight:bold">
+					<span style="width:9pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>1. Introduction
+				</li>
+			</ol>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				Welcome to the Sharebill Privacy Policy. This policy explains how Leansmart ("we," "us," or "Sharebill") collects, uses, and protects your personal information when you use the Sharebill application ("the App"). We are committed to protecting your privacy and ensuring the security of your data, especially the financial information you entrust to us.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				Sharebill is designed to facilitate credit sharing and shared bill management among groups of friends. We understand the sensitive nature of financial data and take our responsibility to protect it seriously. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of your information, including the data you provide when using Google or Apple Authentication to create an account, and the financial transaction data you enter within your groups.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				By using Sharebill, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with our practices, please do not use the App. &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				This policy is effective as of March 15<span style="line-height:150%; font-size:8pt; "><sup>th</sup></span>, 2025. We may update this policy from time to time, and we will notify you of any material changes as required by applicable law.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<ol start="2" class="awlist2" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:46.35pt; text-indent:-18pt; line-height:150%; font-size:12pt">
+					<span style="width:9pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><strong> 2. Information We Collect</strong>
+				</li>
+			</ol>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We collect information to provide and improve the Sharebill app, and to ensure the security of your data. The types of information we collect include:
+			</p>
+			<ol class="awlist3" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:46.35pt; text-indent:-18pt; line-height:150%; font-size:12pt; font-weight:bold">
+					&#xa0;2.1. Account Information:
+				</li>
+			</ol>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				When you create an account using Google or Apple Authentication, we collect your full name or display name, avatar, and email address. This information is necessary to create and manage your Sharebill account, and to authenticate your access to the App.
+			</p>
+			<ol start="2" class="awlist4" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:46.35pt; text-indent:-18pt; line-height:150%; font-size:12pt; font-weight:bold">
+					&#xa0;2.2. Financial Data:
+				</li>
+			</ol>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				Sharebill is designed to facilitate credit sharing and shared bill management within groups. To provide these functionalities, we collect the following financial data:
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Transaction Records:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> Details of lending and borrowing transactions within your groups, including amounts, dates, and descriptions.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Shared Bill Information:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> Amounts, participants, and descriptions of shared expenses within your groups.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Group Credit Balances:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> The current credit balances of members within your groups.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Credit Transfer Data:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> Information related to transfers of credits between members within a group.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				It's important to note that we <strong>do not</strong> collect or store your bank account numbers, credit card details, or any other sensitive payment information. All financial data collected is related to the credit sharing and bill management features within the Sharebill app.
+			</p>
+			<ol start="3" class="awlist5" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:46.35pt; text-indent:-18pt; line-height:150%; font-size:12pt; font-weight:bold">
+					&#xa0;2.3. Usage Data:
+				</li>
+			</ol>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We collect information about how you use Sharebill, including:
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">App Usage Patterns:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> Data about the features you use and how frequently you use them.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Device Information:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> Information about your device, such as device type and operating system.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Log Data:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> Information about your use of the app, such as your IP address and access times.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				This data helps us understand how users interact with Sharebill, troubleshoot technical issues, and improve the app's functionality and user experience.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>3. How We Use Your Information</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We use the information we collect for the following purposes:
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>3.1 To Provide and Maintain Sharebill:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We use your Account Information and Financial Data to:
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Create and manage your Sharebill account.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Facilitate credit sharing and shared bill management within your groups.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Process and record credit transactions and shared expenses.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Calculate and display group credit balances.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Enable credit transfers between group members.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Provide you with the core functionalities of the Sharebill app.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>3.2 To Improve and Enhance Sharebill:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We use your Usage Data to:
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Analyze app usage patterns and identify areas for improvement.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Troubleshoot technical issues and provide support.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Develop new features and enhance existing ones.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Improve the user experience and overall performance of Sharebill.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>3.3 To Communicate with You:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We may use your Account Information to:
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Send you important app updates and notifications.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Respond to your inquiries and provide customer support.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>3.4 To Ensure Security and Prevent Fraud:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We use your data to:
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Monitor and detect fraudulent or unauthorized activity.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Protect the security and integrity of Sharebill.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">Enforce our Terms of Service and Privacy Policy.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>3.5 To Comply with Legal Obligations:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We may use your information to comply with applicable laws, regulations, and legal processes.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>4. Data Sharing and Disclosure</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We are committed to protecting your privacy and will only share your information as described in this Privacy Policy.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>4.1 Sharing Within Groups:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				Sharebill is designed to facilitate credit sharing and shared bill management within closed groups of friends. Therefore, your Financial Data, including transaction records, shared bill information, and group credit balances, will be visible to other members within your groups. You understand and acknowledge that this sharing is essential for the App's functionality.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>4.2 Sharing with Service Providers:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We may share your information with third-party service providers who assist us in operating Sharebill, such as hosting providers, data analytics providers, and customer support providers. These service providers are contractually obligated to protect your information and are only authorized to use it for the purposes of providing services to us. &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>4.3 Legal Requirements and Business Transfers:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We may disclose your information if required by law, such as to comply with a subpoena or court order, or to protect our rights or the rights of others. In the event of a merger, acquisition, or sale of assets, your information may be transferred to the acquiring entity. &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>4.4 No Sale of Personal Data:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We do not sell, rent, or trade your personal information to third parties for marketing purposes.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>4.5 Third-Party Donation Platform:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				If you choose to donate to the app creator through a third-party donation platform, we may share necessary information with that platform to facilitate the donation process. Please review the third-party platform's privacy policy for details on their data handling practices. We do not store any payment information related to these donations.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>5. Data Security</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We take the security of your information seriously and implement reasonable technical and organizational measures to protect it from unauthorized access, use, or disclosure. These measures include: &#xa0; 
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Encryption:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> We use encryption to protect sensitive data during transmission. </span><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">&#xa0;</span><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> </span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Access Controls:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> We restrict access to your personal information to authorized personnel only.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Regular Security Assessments:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> We conduct regular security assessments and audits to identify and address vulnerabilities. </span><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt">&#xa0;</span><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> </span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Secure Data Storage:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> We store your data on secure servers and use industry-standard security practices.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				However, please be aware that no method of transmission over the internet or method of electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee its absolute security. &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>5.1 User Responsibility:</strong> &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				While Sharebill utilizes Google and Apple Authentication for account access, and therefore does not store passwords, you are still responsible for maintaining the security of your Google or Apple account credentials. Please do not share your Google or Apple account credentials with anyone. If you suspect any unauthorized access to your Google or Apple account, please notify the respective authentication provider immediately and take appropriate steps to secure your account.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>6. Data Retention</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period<span style="line-height:150%; font-size:8pt; "><sup> </sup></span>is required or permitted<span style="line-height:150%; font-size:8pt; "><sup> </sup></span>by law.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>6.1 Account Information:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We retain your Account Information as long as your Sharebill account is active. If you delete your account, we may retain certain Account Information for a limited period for backup, archival, or legal purposes.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>6.2 Financial Data:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We retain your Financial Data, including transaction records, shared bill information, and group credit balances, for as long as your account is active and for an extended period thereafter as required for:
+			</p>
+			<ul style="margin:0pt; padding-left:0pt">
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Legal Compliance:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> To comply with applicable laws and regulations, including financial reporting requirements.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Operational Purposes:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> To maintain accurate records and facilitate dispute resolution within groups.</span>
+				</li>
+				<li style="margin-left:27.6pt; text-indent:0pt; line-height:150%; padding-left:8.4pt; font-family:serif; font-size:10pt">
+					<strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt; ">Auditing and Security:</span></strong><span style="line-height:150%; font-family:'Times New Roman'; font-size:12pt"> To detect and prevent fraud, and to ensure the security of our systems.</span>
+				</li>
+			</ul>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>6.3 Usage Data:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We retain Usage Data for a limited period to analyze app usage patterns, troubleshoot technical issues, and improve the app's functionality.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>6.4 Data Deletion Requests:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				You may request the deletion of your personal information, subject to our legal obligations and legitimate business interests. We will comply with your request within a reasonable timeframe, unless we are required to retain the information for legal or operational purposes.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>7. User Rights</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				You have certain rights regarding your personal information, which we are committed to upholding. These rights include:
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>7.1 Right to Access:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				You have the right to request access to the personal information we hold about you. Upon request, we will provide you with a copy of your data in a commonly used electronic format. &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>7.2 Right to Correction:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				You have the right to request that we correct any inaccuracies in your personal information. You can update your account information directly within the Sharebill app.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>7.3 Right to Deletion:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				You have the right to request the deletion of your personal information, subject to our legal obligations and legitimate business interests. We will comply with your request within a reasonable timeframe, unless we are required to retain the information for legal or operational purposes.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>7.4 Right to Withdraw Consent:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				If we process your personal information based on your consent, you have the right to withdraw your consent at any time. Withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal. &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>7.5 Right to Object:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				You have the right to object to the processing of your personal information in certain circumstances, such as for direct marketing purposes. &#xa0; 
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>7.6 Exercising Your Rights:</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				To exercise any of these rights, please contact us using the contact information provided in Section 10. We may require you to verify your identity before processing your request. We will respond to your request within a reasonable timeframe and in accordance with applicable law.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>8. Changes to This Privacy Policy</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We reserve the right to modify or update this Privacy Policy at any time. We will notify you of any material<span style="line-height:150%; font-size:8pt; "><sup> </sup></span>changes by posting the updated policy<span style="line-height:150%; font-size:8pt; "><sup>&#xa0; </sup></span>on our website or within the Sharebill app, and by updating the "Effective Date" at the beginning of this policy.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				Your continued use of Sharebill after any changes to this Privacy Policy constitutes your acceptance of the revised policy. We encourage you to review this Privacy Policy periodically for any updates or changes.
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				<strong>9. Contact Information</strong>
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				If you have any questions or concerns about this Privacy Policy or our data handling practices, please contact<span style="line-height:150%; font-size:8pt; "><sup> </sup></span>us at:
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				Email: sharebill.leansmart@gmail.com
+			</p>
+			<p style="text-indent:0pt; line-height:150%; font-size:12pt">
+				We will respond to your inquiries as soon as reasonably possible and in accordance with applicable law.
+			</p></body>
+</html>
