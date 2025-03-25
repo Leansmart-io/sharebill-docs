@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<title>
+		</title>
+		<style>
+			body { text-indent:28.35pt; line-height:150%; font-family:'Times New Roman'; font-size:14pt }
+			h1, h2, h3, h4, h5, h6, p { margin:0pt 0pt 8pt }
+			li { margin-top:0pt; margin-bottom:8pt }
+			h1 { margin-top:18pt; margin-bottom:4pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:'Times New Roman'; font-size:20pt; font-weight:normal; color:#0f4761 }
+			h2 { margin-top:8pt; margin-bottom:4pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:'Times New Roman'; font-size:16pt; font-weight:normal; color:#0f4761 }
+			h3 { margin-top:8pt; margin-bottom:4pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#0f4761 }
+			h4 { margin-top:4pt; margin-bottom:2pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; font-style:italic; color:#0f4761 }
+			h5 { margin-top:4pt; margin-bottom:2pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#0f4761 }
+			h6 { margin-top:2pt; margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; font-style:italic; color:#595959 }
+			.Heading7 { margin-top:2pt; margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#595959 }
+			.Heading8 { margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; font-style:italic; color:#272727 }
+			.Heading9 { margin-bottom:0pt; text-indent:28.35pt; page-break-inside:avoid; page-break-after:avoid; line-height:150%; font-family:Arial; font-size:14pt; font-weight:normal; color:#272727 }
+			.IntenseQuote { margin:18pt 43.2pt; text-indent:28.35pt; text-align:center; line-height:150%; border-top:0.75pt solid #0f4761; border-bottom:0.75pt solid #0f4761; padding-top:10pt; padding-bottom:10pt; font-size:14pt; font-style:italic; color:#0f4761 }
+			.ListParagraph { margin-left:36pt; margin-bottom:8pt; text-indent:28.35pt; line-height:150%; font-size:14pt }
+			.Quote { margin-top:8pt; margin-bottom:8pt; text-indent:28.35pt; text-align:center; line-height:150%; font-size:14pt; font-style:italic; color:#404040 }
+			.Subtitle { margin-bottom:8pt; text-indent:28.35pt; line-height:150%; font-family:Arial; font-size:14pt; letter-spacing:0.75pt; color:#595959 }
+			.Title { margin-bottom:4pt; text-indent:28.35pt; line-height:normal; font-family:'Times New Roman'; font-size:28pt; letter-spacing:-0.5pt }
+			span.FollowedHyperlink { text-decoration:underline; color:#96607d }
+			span.Heading1Char { font-family:'Times New Roman'; font-size:20pt; color:#0f4761 }
+			span.Heading2Char { font-family:'Times New Roman'; font-size:16pt; color:#0f4761 }
+			span.Heading3Char { font-family:Arial; color:#0f4761 }
+			span.Heading4Char { font-family:Arial; font-style:italic; color:#0f4761 }
+			span.Heading5Char { font-family:Arial; color:#0f4761 }
+			span.Heading6Char { font-family:Arial; font-style:italic; color:#595959 }
+			span.Heading7Char { font-family:Arial; color:#595959 }
+			span.Heading8Char { font-family:Arial; font-style:italic; color:#272727 }
+			span.Heading9Char { font-family:Arial; color:#272727 }
+			span.Hyperlink { text-decoration:underline; color:#467886 }
+			span.IntenseEmphasis { font-style:italic; color:#0f4761 }
+			span.IntenseQuoteChar { font-style:italic; color:#0f4761 }
+			span.IntenseReference { font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#0f4761 }
+			span.QuoteChar { font-style:italic; color:#404040 }
+			span.SubtitleChar { font-family:Arial; letter-spacing:0.75pt; color:#595959 }
+			span.TitleChar { font-family:'Times New Roman'; font-size:28pt; letter-spacing:-0.5pt }
+			span.UnresolvedMention { color:#605e5c; background-color:#e1dfdd }
+			.awlist1 { list-style:none; counter-reset:awlistcounter2_0 }
+			.awlist1 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+			.awlist2 { list-style:none; counter-reset:awlistcounter2_0 4 }
+			.awlist2 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+			.awlist3 { list-style:none; counter-reset:awlistcounter2_0 6 }
+			.awlist3 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+			.awlist4 { list-style:none; counter-reset:awlistcounter3_0 }
+			.awlist4 > li:before { content:''; counter-increment:awlistcounter3_0 }
+			.awlist5 { list-style:none; counter-reset:awlistcounter2_0 7 }
+			.awlist5 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+			.awlist6 { list-style:none; counter-reset:awlistcounter2_0 8 }
+			.awlist6 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+			.awlist7 { list-style:none; counter-reset:awlistcounter2_0 12 }
+			.awlist7 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+			.awlist8 { list-style:none; counter-reset:awlistcounter2_0 14 }
+			.awlist8 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+			.awlist9 { list-style:none; counter-reset:awlistcounter3_0 1 }
+			.awlist9 > li:before { content:''; counter-increment:awlistcounter3_0 }
+			.awlist10 { list-style:none; counter-reset:awlistcounter2_0 15 }
+			.awlist10 > li:before { content:'-'; counter-increment:awlistcounter2_0 }
+@media (max-width: 900px) { 
+img { 
+   max-width: 100%;
+   height: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+}	
+
+
+		</style>
+	</head>
+	<body>
+			<p style="line-height:150%; font-size:17pt">
+				<strong>GUIDES TO DELETE YOUR SHAREBILL ACCOUNT</strong>
+			</p>
+			<p>
+				<em>by Leansmart.io</em>
+			</p>
+			<p>
+				--- Tìm phiên bản tiếng Việt bên dưới
+			</p>
+			<p>
+				&#xa0;
+			</p>
+			<p>
+				These instructions show you all the steps needed to delete your Sharebill. For more information, please refer to our Privacy Policy at <a href="https://leansmart-io.github.io/sharebill-docs/privacy-policy.html" style="text-decoration:none"><span class="Hyperlink">https://leansmart-io.github.io/sharebill-docs/privacy-policy.html</span></a>
+			</p>
+			<p>
+				If you need support, please send us an email to Gmail at <a href="mailto:sharebill.leansmart@gmail.com" style="text-decoration:none"><span class="Hyperlink">sharebill.leansmart@gmail.com</span></a>. We would also love to hear your feedback.
+			</p>
+			<p>
+				&#xa0;
+			</p>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:45.35pt; text-indent:0pt; line-height:150%; padding-left:1pt; font-size:16pt; font-weight:bold">
+					What happens after you delete your account:
+				</li>
+			</ol>
+			<p style="text-indent:0pt">
+				After you delete your account:
+			</p>
+			<ul class="awlist1" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>You will no longer have access to your Sharebill account, this will take effect immediately.
+				</li>
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Your account can no longer be found on the app, regarding searching to join groups, thus it is impossible to receive any group invitation.
+				</li>
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Any of your group members will see your account marked as “Deleted account”, your avatar (profile picture) will be removed and replaced with the default avatar for the deleted account.
+				</li>
+				<li class="ListParagraph" style="text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Groups and their members that your account participates in can still settle open credits (lends and borrows), yet can no longer set a new split expense with you. This ensures the fundamental settlement functionalities and fairness of Sharebill until your group admins decide to remove your deleted account from the group.
+				</li>
+			</ul>
+			<p>
+				&#xa0;
+			</p>
+			<ol start="2" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:45.35pt; text-indent:0pt; line-height:150%; padding-left:1pt; font-size:16pt; font-weight:bold">
+					How your data will be handled:
+				</li>
+			</ol>
+			<p style="text-indent:0pt">
+				Your data (as defined in the Privacy Policy) that will be deleted:
+			</p>
+			<ul class="awlist2" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Your avatar (profile picture)
+				</li>
+				<li class="ListParagraph" style="text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Your default / displayed name
+				</li>
+			</ul>
+			<p style="text-indent:0pt">
+				Your data that will be kept:
+			</p>
+			<ul class="awlist3" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Your email address
+				</li>
+			</ul>
+			<ul class="awlist4" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:64.35pt; margin-bottom:0pt; text-indent:-18pt; font-family:Wingdings">
+					<span style="width:3.06pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0; </span><span style="font-family:'Times New Roman'">To identify the basic information of lends and borrows you still have with other members and other functionalities of Sharebill</span>
+				</li>
+			</ul>
+			<ul class="awlist5" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Your open credits of lends and borrows you share with other members of Sharebill
+				</li>
+			</ul>
+			<p>
+				&#xa0;
+			</p>
+			<ol start="3" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:45.35pt; text-indent:0pt; line-height:150%; padding-left:1pt; font-size:16pt; font-weight:bold">
+					Steps to delete account:
+				</li>
+			</ol>
+			<p style="text-indent:0pt">
+				<strong>S1</strong>: Open the Sharebill app and go to the tab “Account”
+			</p>
+			<p style="text-indent:0pt">
+				<strong>S2</strong>: Click on the gear icon to see other account settings
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-1.png" width="364" height="491" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>S3</strong>: Select “Delete account” from the bottom list
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-2.png" width="361" height="492" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>S4</strong>: Select “Next” from the popup to indicate that you want to delete your account and this is not an accidental click. Otherwise, choose “Cancel” to cancel the process.
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-3.png" width="372" height="499" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>S5</strong>: After you read the brief information about the account deletion process, and wish to continue, check the box to confirm your intention.
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-4.png" width="377" height="502" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>S6</strong>: After checking the box, the “Delete account” will be available for your to click on. Click on “Delete account” to finalise your deletion. You will then be prompted that your account has been deleted. 
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-5.png" width="377" height="506" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="line-height:150%; font-size:18pt">
+				<strong>HƯỚNG DẪN XÓA TÀI KHOẢN SHAREBILL</strong>
+			</p>
+			<p>
+				<em>viết bởi Leansmart.io</em>
+			</p>
+			<p>
+				--- English version above
+			</p>
+			<p>
+				&#xa0;
+			</p>
+			<p>
+				Đây là toàn bộ hướng dẫn về các bước bạn cần làm để xóa tài khoản Sharebill. Thông tin chi tiết, vui lòng tìm hiểu thêm tại Chính sách bảo mật của chúng tôi tại <a href="https://leansmart-io.github.io/sharebill-docs/privacy-policy.html" style="text-decoration:none"><span class="Hyperlink">https://leansmart-io.github.io/sharebill-docs/privacy-policy.html</span></a>
+			</p>
+			<p>
+				Nếu bạn cần hỗ trợ, hãy gửi email đến Gmail tại <a href="mailto:sharebill.leansmart@gmail.com" style="text-decoration:none"><span class="Hyperlink">sharebill.leansmart@gmail.com</span></a>. Chúng tôi cũng rất mong chờ các góp ý của bạn.
+			</p>
+			<p>
+				&#xa0;
+			</p>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:35pt; text-indent:0pt; line-height:150%; padding-left:1pt; font-size:16pt; font-weight:bold">
+					Chuyện gì sẽ xảy ra sau khi bạn xóa tài khoản:
+				</li>
+			</ol>
+			<p style="text-indent:0pt">
+				Sau khi xóa tài khoản:
+			</p>
+			<ul class="awlist6" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Bạn sẽ ngay lập tức mất quyền truy cập vào tài khoản Sharebill của bạn
+				</li>
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Tài khoản của bạn sẽ không thể được tìm thấy trên app, điều này liên quan tới việc tìm kiếm người dùng để mời vào nhóm, và vì vậy tài khoản cũng không thể nhận được bất cứ lời mời tham gia nhóm nào.
+				</li>
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Thành viên của các nhóm mà bạn tham gia sẽ thấy tài khoản của bạn được đánh dấu là “Deleted account” (Tài khoản đã bị xóa), ảnh đại diện của bạn cũng sẽ bị gỡ và thay thế bằng ảnh đại diện mặc định của tài khoản đã bị xóa.
+				</li>
+				<li class="ListParagraph" style="text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Nhóm bạn tham gia và các thành viên trong đó vẫn có thể tiếp tục thanh toán, hoàn tất các khoản tín dụng mượn và cho mượn liên quan đến bạn, nhưng không thể tạo một chi tiêu mới với tài khoản đã bị xóa của bạn. Điều này giúp đảm bảo các chức năng cơ bản và sự công bằng về tín dụng của Sharebill cho đến khi quản trị viên của các nhóm này quyết định xóa tài khoản của bạn khỏi nhóm
+				</li>
+			</ul>
+			<p>
+				&#xa0;
+			</p>
+			<ol start="2" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:35pt; text-indent:0pt; line-height:150%; padding-left:1pt; font-size:16pt; font-weight:bold">
+					Dữ liệu của bạn sẽ được xử lý như sau:
+				</li>
+			</ol>
+			<p style="text-indent:0pt">
+				Các thông tin dữ liệu của bạn (như được định nghĩa trong Chính sách bảo mật) sẽ được xóa:
+			</p>
+			<ul class="awlist7" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Ảnh đại diện
+				</li>
+				<li class="ListParagraph" style="text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Tên đại diện / mặc định của tài khoản
+				</li>
+			</ul>
+			<p style="text-indent:0pt">
+				Những dữ liệu sau sẽ được giữ lại:
+			</p>
+			<ul class="awlist8" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-bottom:0pt; text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Địa chỉ email
+				</li>
+			</ul>
+			<ul class="awlist9" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:64.35pt; margin-bottom:0pt; text-indent:-18pt; font-family:Wingdings">
+					<span style="width:3.06pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0; </span><span style="font-family:'Times New Roman'">Nhằm xác định thông tin cơ bản liên quan đến các khoản tín dụng mượn và cho mượn mà bạn vẫn đang có với các thành viên khác, cũng như giúp đảm bảo sự hoạt động bình thường của Sharebill</span>
+				</li>
+			</ul>
+			<ul class="awlist10" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="text-indent:-18pt">
+					<span style="width:13.34pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>Thông tin tín dụng (mượn và cho mượn), mà bạn có với các thành viên khác của Sharebill
+				</li>
+			</ul>
+			<p>
+				&#xa0;
+			</p>
+			<ol start="3" style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-left:35pt; text-indent:0pt; line-height:150%; padding-left:1pt; font-size:16pt; font-weight:bold">
+					Các bước để xóa tài khoản:
+				</li>
+			</ol>
+			<p style="text-indent:0pt">
+				<strong>B1</strong>: Mở app Sharebill và vào tab “Tài khoản”
+			</p>
+			<p style="text-indent:0pt">
+				<strong>B2</strong>: Chọn biểu tượng “răng cưa” để xem các Cài đặt tài khoản khác
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-6.png" width="364" height="493" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>B3</strong>: Chọn “Xóa tài khoản” từ danh sách hiện lên
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-7.png" width="362" height="492" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>B4</strong>: Chọn “Tiếp” trong popup để xác nhận hành động xóa tài khoản của bạn là chủ đích chứ không phải vô ý. Hoặc chọn “Cancel” để thoát quá trình xóa tài khoản.
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-8.png" width="359" height="482" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>B5</strong>: Sau khi đọc các thông tin liên quan đến quá trình xóa tài khoản, và bạn vẫn muốn tiếp tục xóa, hãy đánh dấu và ô xác nhận hành động.
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-9.png" width="363" height="485" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+			<p style="text-indent:0pt">
+				<strong>B6:</strong> Sau khi đánh dấu vào ô xác nhận, nút “Xóa tài khoản” sẽ được mở. Lúc này, hãy chọn nút “Xóa tài khoản” để thực hiện xóa tài khoản. Sau đó bạn sẽ được thông báo rằng tài khoản đã được xóa thành công. 
+			</p>
+			<p style="text-indent:0pt">
+				<img src="1742889526_delete-account-instructions/1742889526_delete-account-instructions-10.png" width="366" height="494" alt="" />
+			</p>
+			<p style="text-indent:0pt">
+				&#xa0;
+			</p>
+</body>
+</html>
